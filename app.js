@@ -14,6 +14,7 @@ let img1= document.getElementById('img1');
 let img2= document.getElementById('img2');
 
 function playLudo(){
+	
     let score1=Math.floor(Math.random()*(6-1+1)+1);
     document.getElementById('playerOneCurrentScore').innerText=score1;
     switch(score1){
@@ -51,7 +52,9 @@ function playLudo(){
     }
     playerTwoScore+=score2;
     pTS.innerText=playerTwoScore;
-    console.log(pTS)
+	// music
+	document.getElementById('sound').play()
+	
     if(playerOneScore>=100||playerTwoScore>=100){
         if(playerOneScore>playerTwoScore){
             alert(usrname+' is Winner')
@@ -61,4 +64,7 @@ function playLudo(){
             document.getElementById('welcome-text').innerText =" Winner is Mahaveer";
         }
     }  
+	// diasble button for 1 second
+	document.getElementById("btn1").disabled = true;
+    setTimeout(function(){document.getElementById("btn1").disabled = false;},1000);
 }
