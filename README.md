@@ -43,4 +43,5 @@ This project is open-source and available under the [MIT License](LICENSE).
 - **JavaScript DOM Manipulation**: For enabling dynamic interactions with the webpage.
 - **Dice Images and Sounds**: For enhancing the gaming experience with custom visuals and audio.
 
-## Give ⭐ to this repo on github if you like this repo.
+### Give a minute and appreciate if you like my work.
+Give ⭐ to this repo on github if you like this repo.
